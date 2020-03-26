@@ -5,7 +5,7 @@ In this project, I am doing semantic segmentation on MonuSeg Dataset using diffe
 ## 1. U-Net
 (Modified the original implementation at https://github.com/hlamba28/UNET-TGS/blob/master/TGS%20UNET.ipynb for this dataset)
 
-###### Model Diagram:
+###### Model Diagram
 ![model plot](unet_model_plot.png)
 
 ###### Training Settings
@@ -17,8 +17,12 @@ In this project, I am doing semantic segmentation on MonuSeg Dataset using diffe
 * Accuracy (on Test Data) = 0.82
 * Dice Score = 0.41
 
-###### Learning Curve:
+###### Learning Curve
 ![Learning Curve](unet_learning_curve.png)
+
+###### Visualization
+![demo1](unet_demo1.png)
+![demo1](unet_demo2.png)
 
 ## 2. SegNet
 ## 3. DeepLab-v3
