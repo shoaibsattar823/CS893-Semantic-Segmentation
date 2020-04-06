@@ -22,7 +22,30 @@ In this project, I am doing semantic segmentation on MonuSeg Dataset using diffe
 
 ###### Visualization
 ![demo1](unet_demo1.png)
-![demo1](unet_demo2.png)
+![demo2](unet_demo2.png)
 
 ## 2. SegNet
+For this network I have used 256x256 size images for training which are actually patches of original 1000x1000 size image.
+
+###### Model Diagram
+![model plot](segnet-model-diagram.png)
+
+###### Training Settings
+* Optimizer: Adam
+* Batch Size: 16
+
+###### Evaluation
+* Accuracy = 0.58
+* Dice Score = 0.35
+* F1-Score = 0.43
+* Loss (Binary Crossentropy) = 0.82
+
+###### Learning Curve
+![Learning Curve Loss](segnet-loss-curve.png)
+![Learning Curve Acc](seget-acc-curve.png)
+
+###### Visualization
+![demo1](segnet-demo1-test.png)
+![demo2](segnet-demo2-test.png)
+
 ## 3. DeepLab-v3
